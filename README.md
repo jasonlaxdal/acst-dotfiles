@@ -55,3 +55,8 @@ Login To Dropbox & Sync with Mackup
 ```
 mackup restore
 ```
+
+Symlink Airmail
+```
+ln -s /Users/Sean/Dropbox/Apps/Airmail/it.bloop.airmail ~/Library/Containers/it.bloop.airmail
+```
