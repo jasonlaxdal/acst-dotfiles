@@ -1,1 +1,0 @@
-ln -s /Users/Sean/Dropbox/Apps/Airmail/it.bloop.airmail ~/Library/Containers/it.bloop.airmail
