@@ -2,7 +2,7 @@
 
 Sean's dot, brew, cask, and shell files for new machine setup
 
-## Installation
+#### Installation
 
 Download this stuff to your ~ directory.
 
@@ -20,7 +20,7 @@ Show all files
 defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
-## Install ThoughtBot/Laptop Script
+#### Install ThoughtBot/Laptop Script
 ```
 bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac)
 # Then, switch bash back to the default bash for good
@@ -28,7 +28,7 @@ chsh -s /bin/bash
 
 ```
 
-## Additional Rails Stuff
+#### Additional Rails Stuff
 ```
 # Install the right version of ruby
 rbenv install 2.0.0-p247
@@ -39,18 +39,18 @@ createuser -s -r postgres
 # All clear to run the setup script!
 ```
 
-## Brewfile & Caskfile
+#### Brewfile & Caskfile
 ```
 # brew bundle Brewfile
 # brew bundle Caskfile
 ```
 
-# Sync Settings with Mackup
+#### Sync Settings with Mackup
 ```
 mackup restore
 ```
 
-# Go get everything from the Apple App Store
+#### Go get everything from the Apple App Store
 
 ```
 # Run Download/Setup/.osx to Tweak OSX
