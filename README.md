@@ -9,10 +9,15 @@ First, show all files
 defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
-Download this repo to your ~ directory.
+Download this repo to your ~/Projects directory
 
 ```
-git clone https://github.com/srankin/dotfiles.git
+git clone https://github.com/srankin/dotfiles.git Projects/dotfiles
+```
+
+Copy dotfiles to the root
+```
+cp -r ~/Projects/dotfiles/dotfiles ~
 ```
 
 Install X-code command-line tools
@@ -58,5 +63,5 @@ mackup restore
 
 Symlink Airmail
 ```
-ln -s /Users/Sean/Dropbox/Apps/Airmail/General ~/Library/Containers/it.bloop.airmail/Data/Library/Application Support/Airmail/General
+ln -s /Users/Sean/Dropbox/Apps/Airmail/General ~/Library/Containers/it.bloop.airmail/Data/Library/Application\ Support/Airmail/General
 ```
