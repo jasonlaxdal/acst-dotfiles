@@ -46,8 +46,8 @@ brew bundle Caskfile
 
 #### Go get everything from the Apple App Store
 
+### # Run ./.osx to tweak OSX
 ```
-# Run Download/Setup/.osx to Tweak OSX
 # ./.osx
 ```
 
