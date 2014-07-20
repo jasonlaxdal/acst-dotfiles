@@ -20,14 +20,14 @@ Install X-code command-line tools
 xcode-select --install
 ```
 
-#### Install ThoughtBot/Laptop Script
+Install ThoughtBot/Laptop Script
 ```
 bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac)
 # Then, switch bash back to the default bash for good
 chsh -s /bin/bash
 ```
 
-#### Additional Rails Stuff
+Additional Rails Stuff
 ```
 # Install the right version of ruby
 rbenv install 2.0.0-p247
@@ -38,22 +38,20 @@ createuser -s -r postgres
 # All clear to run the setup script!
 ```
 
-#### Brewfile & Caskfile
+Brewfile & Caskfile
 ```
 brew bundle Brewfile
 brew bundle Caskfile
 ```
 
-#### Go get everything from the Apple App Store
+Go get everything from the Apple App Store
 
-### # Run ./.osx to tweak OSX
+Run ./.osx to tweak OSX
 ```
 # ./.osx
 ```
 
-#### Login To Dropbox
-
-#### Sync Settings with Mackup
+Login To Dropbox & Sync with Mackup
 ```
 mackup restore
 ```
