@@ -4,20 +4,20 @@ Sean's dot, brew, cask, and shell files for new machine setup
 
 #### Installation
 
-Download this stuff to your ~ directory.
+First, show all files
+```
+defaults write com.apple.finder AppleShowAllFiles YES
+```
+
+Download this repo to your ~ directory.
 
 ```
 git clone https://github.com/srankin/dotfiles.git
 ```
 
-Install X-code command line tools
+Install X-code command-line tools
 ```
 xcode-select --install
-```
-
-Show all files
-```
-defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
 #### Install ThoughtBot/Laptop Script
@@ -25,7 +25,6 @@ defaults write com.apple.finder AppleShowAllFiles YES
 bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac)
 # Then, switch bash back to the default bash for good
 chsh -s /bin/bash
-
 ```
 
 #### Additional Rails Stuff
@@ -41,13 +40,8 @@ createuser -s -r postgres
 
 #### Brewfile & Caskfile
 ```
-# brew bundle Brewfile
-# brew bundle Caskfile
-```
-
-#### Sync Settings with Mackup
-```
-mackup restore
+brew bundle Brewfile
+brew bundle Caskfile
 ```
 
 #### Go get everything from the Apple App Store
@@ -55,4 +49,11 @@ mackup restore
 ```
 # Run Download/Setup/.osx to Tweak OSX
 # ./.osx
+```
+
+#### Login To Dropbox
+
+#### Sync Settings with Mackup
+```
+mackup restore
 ```
