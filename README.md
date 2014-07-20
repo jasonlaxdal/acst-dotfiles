@@ -58,5 +58,5 @@ mackup restore
 
 Symlink Airmail
 ```
-ln -s /Users/Sean/Dropbox/Apps/Airmail/it.bloop.airmail ~/Library/Containers/it.bloop.airmail
+ln -s /Users/Sean/Dropbox/Apps/Airmail/General ~/Library/Containers/it.bloop.airmail/Data/Library/Application Support/Airmail/General
 ```
