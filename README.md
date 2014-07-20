@@ -1,18 +1,18 @@
-dotfiles
-========
-
 # Sean's dotfiles
 
 Sean's dot, brew, cask, and shell files for new machine setup
 
 ## Installation
 
-```
-# Download the /Setup folder from Dropbox
+### Download this stuff to your ~ directory.
 
-# Install X-code command line tools
-xcode-select --install
+`git clone https://github.com/srankin/dotfiles.git
 
+
+### Install X-code command line tools
+`xcode-select --install
+
+````
 # Show all files
 defaults write com.apple.finder AppleShowAllFiles YES
 
