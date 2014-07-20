@@ -1,13 +1,3 @@
-dotfiles
-========
-
-# Sean's dotfiles
-
-Sean's dot, brew, cask, and shell files for new machine setup
-
-## Installation
-
-```
 # Download the /Setup folder from Dropbox
 
 # Install X-code command line tools
@@ -41,4 +31,3 @@ mackup restore
 
 # Run Download/Setup/.osx to Tweak OSX
 # ./.osx
-```
