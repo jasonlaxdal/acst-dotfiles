@@ -45,8 +45,8 @@ createuser -s -r postgres
 
 Brewfile & Caskfile
 ```
-brew bundle Brewfile
-brew bundle Caskfile
+brew bundle Projects/dotfiles/Brewfile
+brew bundle Projects/dotfiles/Caskfile
 ```
 
 Go get everything from the Apple App Store
