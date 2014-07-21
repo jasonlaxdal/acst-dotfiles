@@ -21,7 +21,7 @@ cask install airmail
 #cask install tvshows
 #cask install transmission
 
-  Dev Tools --------------------------------------------------------------------
+# Dev Tools --------------------------------------------------------------------
 cask install atom
 cask install github
 cask install kaleidoscope
