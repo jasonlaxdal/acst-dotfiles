@@ -56,7 +56,9 @@ Run ./.osx to tweak OSX
 Projects/dotfiles/.osx
 ```
 
-Login To Dropbox & Sync with Mackup
+Login To Dropbox & Google Drive
+
+Sync with Mackup
 ```
 mackup restore
 ```
