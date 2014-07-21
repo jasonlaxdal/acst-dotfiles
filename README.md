@@ -9,6 +9,11 @@ First, show all files
 defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
+Install X-code command-line tools
+```
+xcode-select --install
+```
+
 Download this repo to your ~/Projects directory
 
 ```
@@ -18,11 +23,6 @@ git clone https://github.com/srankin/dotfiles.git Projects/dotfiles
 Copy dotfiles to the root
 ```
 cp -r ~/Projects/dotfiles/dotfiles ~
-```
-
-Install X-code command-line tools
-```
-xcode-select --install
 ```
 
 Install ThoughtBot/Laptop Script
