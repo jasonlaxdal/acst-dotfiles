@@ -53,14 +53,14 @@ Go get everything from the Apple App Store
 
 Run ./.osx to tweak OSX
 ```
-# ./.osx
+# Projects/dotfiles/.osx
 ```
 
 Login To Dropbox & Sync with Mackup
 ```
 mackup restore
 ```
-
+Install Airmail
 Symlink Airmail
 ```
 ln -s /Users/Sean/Dropbox/Apps/Airmail/General ~/Library/Containers/it.bloop.airmail/Data/Library/Application\ Support/Airmail/General
