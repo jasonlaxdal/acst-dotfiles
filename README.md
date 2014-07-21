@@ -53,7 +53,7 @@ Go get everything from the Apple App Store
 
 Run ./.osx to tweak OSX
 ```
-# Projects/dotfiles/.osx
+Projects/dotfiles/.osx
 ```
 
 Login To Dropbox & Sync with Mackup
