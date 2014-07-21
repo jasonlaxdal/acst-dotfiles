@@ -13,7 +13,7 @@ cask install vlc
 cask install transmit
 #cask install firefox
 #cask install silverlight
-cask install airmail
+#cask install airmail
 
 # Media Center Tools -----------------------------------------------------------
 #cask install plex-media-server
