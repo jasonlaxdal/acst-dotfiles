@@ -1,4 +1,4 @@
-# Sean's dotfiles
+# Sean's Dotfiles
 
 Sean's dot, brew, cask, and shell files for new machine setup
 
