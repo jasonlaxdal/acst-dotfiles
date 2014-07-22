@@ -1,6 +1,6 @@
 # Sean's Dotfiles
 
-Sean's dot, brew, cask, and shell files for new machine setup
+This repo contains all the scripts to provision a shiny new Mac.
 
 #### Installation
 
