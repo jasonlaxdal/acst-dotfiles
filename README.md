@@ -67,3 +67,9 @@ Symlink Airmail
 ```
 ln -s /Users/Sean/Dropbox/Apps/Airmail/General ~/Library/Containers/it.bloop.airmail/Data/Library/Application\ Support/Airmail/General
 ```
+
+Finally, install software
+- Adobe CS6
+- Microsoft Office 2011
+- Aperture
+
