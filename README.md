@@ -40,6 +40,8 @@ rbenv install 2.0.0-p247
 gem install bundler
 # Create a default postgres user
 createuser -s -r postgres
+# Generate & upload a public key to Heroku
+heroku keys:add
 # All clear to run the setup script!
 ```
 
