@@ -42,6 +42,14 @@ gem install bundler
 createuser -s -r postgres
 # Generate & upload a public key to Heroku
 heroku keys:add
+# Add git remotes
+git remote add build git@heroku.com:hhr-build.git
+git remote add demo git@heroku.com:hhr-demo.git
+git remote add production git@heroku.com:hhr-production.git
+git remote add qa git@heroku.com:hhr-qa.git
+git remote add staging git@heroku.com:hhr-staging.git
+git remote add temp git@heroku.com:hhr-temp.git
+git remote add test git@heroku.com:hhr-test.git
 # All clear to run the setup script!
 ```
 
