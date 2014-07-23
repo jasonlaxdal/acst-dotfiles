@@ -25,7 +25,7 @@ cask install transmit
 # Dev Tools --------------------------------------------------------------------
 cask install atom
 cask install github
-#cask install kaleidoscope
+cask install kaleidoscope
 #cask install slack
 cask install pgadmin3
 
