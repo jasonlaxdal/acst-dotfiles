@@ -26,6 +26,7 @@ cask install transmit
 cask install atom
 cask install github
 #cask install kaleidoscope
+cask install ksdiff
 #cask install slack
 cask install pgadmin3
 
