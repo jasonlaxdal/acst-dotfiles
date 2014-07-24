@@ -15,6 +15,7 @@ install figlet
 # Work Formule
 tap homebrew/versions
 install maven30
+install tomcat7
 
 # Remove outdated versions from the cellar
 cleanup
