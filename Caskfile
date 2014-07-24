@@ -29,6 +29,9 @@ cask install kaleidoscope
 #cask install slack
 cask install pgadmin3
 
+# Work Tools -------------------------------------------------------------------
+cask install eclipse-platform
+
 # Design Tools -----------------------------------------------------------------
 cask install slicy
 #cask install axure-rp-pro
