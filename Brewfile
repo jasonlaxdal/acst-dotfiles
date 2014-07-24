@@ -10,6 +10,7 @@ upgrade
 # List out the formulas I want to install:
 install mackup
 install graphviz
+install figlet
 
 # Remove outdated versions from the cellar
 cleanup
