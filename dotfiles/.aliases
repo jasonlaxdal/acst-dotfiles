@@ -8,6 +8,7 @@ alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 alias hhr="cd ~/Projects/HuddleHR"
 alias dif="git difftool"
+alias tc="catalina run"
 
 ################################################################################
 # The default alaiss from the dotfiles repo
