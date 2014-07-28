@@ -28,7 +28,7 @@ cask install atom
 cask install github
 cask install kaleidoscope
 cask install pgadmin3
-#cask install slack
+cask install slack
 
 # Work Tools -------------------------------------------------------------------
 cask install java7
