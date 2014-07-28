@@ -31,7 +31,8 @@ cask install pgadmin3
 #cask install slack
 
 # Work Tools -------------------------------------------------------------------
-cask install eclipse-platform
+#cask install eclipse-ide
+#is this right? I think i need the 32 bit version
 
 # Design Tools -----------------------------------------------------------------
 cask install slicy
