@@ -33,7 +33,8 @@ cask install slack
 # Work Tools -------------------------------------------------------------------
 cask install java7
 cask install eclipse-ide
-
+cask install virtualbox
+ 
 # Design Tools -----------------------------------------------------------------
 cask install slicy
 cask install omnigraffle
