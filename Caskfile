@@ -16,6 +16,7 @@ cask install eye-fi
 cask install alfred
 cask alfred link
 cask install perian
+cask install transmission
 #cask install firefox
 #cask install silverlight
 
@@ -23,7 +24,6 @@ cask install perian
 #cask install plex-media-server
 #cask install identify
 #cask install tvshows
-#cask install transmission
 
 # Dev Tools --------------------------------------------------------------------
 cask install atom
