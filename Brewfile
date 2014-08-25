@@ -11,6 +11,7 @@ upgrade
 install mackup
 install graphviz
 install figlet
+install wget
 
 # Work Formule
 tap homebrew/versions
