@@ -8,7 +8,10 @@ alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 alias hhr="cd ~/Projects/HuddleHR"
 alias dif="git difftool"
-alias tc="catalina run"
+# alias tc="catalina run"
+alias tc-start="~/Applications/Tomcat/bin/startup.sh c"
+# alias tc-stop="ps aux | fgrep tomcat"
+alias tc-stop='ps xu | grep tomcat | grep -v grep | awk '"'"'{ print $2 }'"'"' | xargs kill -9'
 
 ################################################################################
 # The default alaiss from the dotfiles repo
