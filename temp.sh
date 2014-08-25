@@ -1,2 +1,2 @@
 #!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
-ruby -v
+puts "testyyyyy"
