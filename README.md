@@ -31,6 +31,10 @@ bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac)
 # Then, switch bash back to the default bash for good
 chsh -s /bin/bash
 ```
+Setup cron file
+```
+crontab ~/.crontab
+```
 
 Additional Rails Stuff
 ```
