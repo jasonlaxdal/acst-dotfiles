@@ -27,7 +27,7 @@ cp -r ~/Projects/dotfiles/dotfiles ~
 
 Install ThoughtBot/Laptop Script
 ```
-bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac)
+bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac) 2>&1 | tee ~/laptop.log
 # Then, switch bash back to the default bash for good
 chsh -s /bin/bash
 ```
