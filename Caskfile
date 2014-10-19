@@ -18,7 +18,7 @@ cask alfred link
 cask install perian
 cask install transmission
 #cask install firefox
-#cask install silverlight
+cask install silverlight
 
 # Media Center Tools -----------------------------------------------------------
 #cask install plex-media-server
@@ -29,17 +29,17 @@ cask install transmission
 cask install atom
 cask install github
 cask install kaleidoscope
-cask install pgadmin3
-cask install slack
-cask install livereload
+#cask install slack
 
 # Work Tools -------------------------------------------------------------------
-cask install java7
-cask install eclipse-ide
-cask install virtualbox
+#cask install java7
+#cask install eclipse-ide
+#cask install virtualbox
+#cask install livereload
+#cask install pgadmin3
  
 # Design Tools -----------------------------------------------------------------
-cask install slicy
+#cask install slicy
 cask install omnigraffle
 #cask install axure-rp-pro
 
