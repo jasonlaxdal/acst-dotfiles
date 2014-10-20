@@ -44,6 +44,8 @@ crontab ~/.crontab
 
 Additional Rails Stuff
 ```
+# Under Yosemite, I had to install libv8 like this:
+gem install libv8 -v '3.16.14.3' -- --with-system-v8
 # Install the right version of ruby
 rbenv install 2.0.0-p481
 # Install bundler for the correct Ruby Version
