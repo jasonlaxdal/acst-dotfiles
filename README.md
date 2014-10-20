@@ -39,7 +39,7 @@ crontab ~/.crontab
 Additional Rails Stuff
 ```
 # Install the right version of ruby
-rbenv install 2.0.0-p247
+rbenv install 2.0.0-p481
 # Install bundler for the correct Ruby Version
 gem install bundler
 # Create a default postgres user
