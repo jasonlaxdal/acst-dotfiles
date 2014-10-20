@@ -24,6 +24,7 @@ Copy dotfiles to the root
 ```
 cp -r ~/Projects/dotfiles/dotfiles ~
 ```
+Update .locals.local
 
 Install ThoughtBot/Laptop Script
 ```
@@ -55,12 +56,6 @@ git remote add staging git@heroku.com:hhr-staging.git
 git remote add temp git@heroku.com:hhr-temp.git
 git remote add test git@heroku.com:hhr-test.git
 # All clear to run the setup script!
-```
-
-Brewfile & Caskfile
-```
-brew bundle Projects/dotfiles/Brewfile
-brew bundle Projects/dotfiles/Caskfile
 ```
 
 Go get everything from the Apple App Store
