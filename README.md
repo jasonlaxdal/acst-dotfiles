@@ -24,7 +24,7 @@ Copy dotfiles to the root
 ```
 cp -r ~/Projects/dotfiles/dotfiles ~
 ```
-Update .locals.local
+Update .laptop.local
 
 Install ThoughtBot/Laptop Script
 ```
