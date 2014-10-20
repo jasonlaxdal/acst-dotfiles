@@ -81,6 +81,3 @@ mackup restore
 
 Finally, install software
 - Adobe CS6
-- Microsoft Office 2011
-- Aperture
-
