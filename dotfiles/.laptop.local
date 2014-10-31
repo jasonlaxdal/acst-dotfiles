@@ -13,6 +13,7 @@ install mackup
 install graphviz
 install figlet
 install wget
+install jq
 
 # Swampfox Java Stuff
 # tap homebrew/versions
