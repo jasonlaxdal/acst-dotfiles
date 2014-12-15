@@ -1,72 +1,62 @@
 #!/bin/sh
 
-# BREWFILE
-# Usage: `brew bundle Brewfile`
+brew tap caskroom/cask
+brew install brew-cask
 
 # Make sure we’re using the latest Homebrew
-update
+# brew update
 
 # Upgrade any already-installed formulae
-upgrade
+# brew upgrade
 
-install mackup
-install graphviz
-install figlet
-install wget
-install jq
+brew install mackup
+brew install graphviz
+brew install figlet
+brew install wget
+brew install jq
 
-# Swampfox Java Stuff
-# tap homebrew/versions
-# install maven30
-# install tomcat7
 
 # Remove outdated versions from the cellar
-cleanup
-
-# CASKFILE
-# Usage: `brew bundle Caskfile`
+# cleanup
 
 brew tap caskroom/cask
 brew install brew-cask
 
 # Apps
-cask install google-chrome
-cask install google-drive
-cask install google-hangouts
-cask install dropbox
-cask install vlc
-cask install transmit
-cask install flash
-cask install eye-fi
-cask install alfred
-cask alfred link
-cask install perian
-cask install transmission
-# cask install firefox
-cask install silverlight
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install google-hangouts
+brew cask install dropbox
+brew cask install vlc
+brew cask install transmit
+brew cask install flash
+# brew cask install eye-fi
+brew cask install perian
+brew cask install transmission
+# brew cask install firefox
+brew cask install silverlight
+brew cask install slack
+brew cask install hipchat
+brew cask install evernote
 
 # Media Center Tools
-# cask install plex-media-server
-# cask install identify
-# cask install tvshows
+# brew cask install plex-media-server
+# brew cask install identify
+# brew cask install tvshows
 
 # Dev Tools
-cask install atom
-cask install github
-cask install kaleidoscope
-# cask install slack
+brew cask install atom
+brew cask install github
+brew cask install kaleidoscope
+brew cask install pgadmin3
 
 # Work Tools
-# cask install java7
-# cask install eclipse-ide
-# cask install virtualbox
-# cask install livereload
-# cask install pgadmin3
  
 # Design Tools
-# cask install slicy
-cask install omnigraffle
-# cask install axure-rp-pro
+# brew cask install slicy
+# brew cask install omnigraffle
+# brew cask install axure-rp-pro
+brew cask install sketch
 
 # Cleanup
-cask cleanup
+brew cask cleanup
