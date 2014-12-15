@@ -6,7 +6,7 @@
 # Upgrade any already-installed formulae
 # brew upgrade
 
-# First install 
+# Brewfile
 brew install mackup
 brew install graphviz
 brew install figlet
@@ -14,7 +14,7 @@ brew install wget
 brew install jq
 
 # Remove outdated versions from the cellar
-# brew cleanup
+brew cleanup
 
 # Tap the cask...
 brew tap caskroom/cask
@@ -29,7 +29,6 @@ brew cask install vlc
 brew cask install transmit
 brew cask install flash
 # brew cask install eye-fi
-brew cask install perian
 brew cask install transmission
 # brew cask install firefox
 brew cask install silverlight
