@@ -1,24 +1,22 @@
 #!/bin/sh
 
-brew tap caskroom/cask
-brew install brew-cask
-
 # Make sure we’re using the latest Homebrew
 # brew update
 
 # Upgrade any already-installed formulae
 # brew upgrade
 
+# First install 
 brew install mackup
 brew install graphviz
 brew install figlet
 brew install wget
 brew install jq
 
-
 # Remove outdated versions from the cellar
-# cleanup
+# brew cleanup
 
+# Tap the cask...
 brew tap caskroom/cask
 brew install brew-cask
 
@@ -53,9 +51,6 @@ brew cask install pgadmin3
 # Work Tools
  
 # Design Tools
-# brew cask install slicy
-# brew cask install omnigraffle
-# brew cask install axure-rp-pro
 brew cask install sketch
 
 # Cleanup
