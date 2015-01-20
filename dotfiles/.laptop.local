@@ -35,6 +35,7 @@ brew cask install silverlight
 brew cask install slack
 brew cask install hipchat
 brew cask install evernote
+brew cask install the-unarchiver
 
 # Media Center Tools
 # brew cask install plex-media-server
@@ -48,7 +49,7 @@ brew cask install kaleidoscope
 brew cask install pgadmin3
 
 # Work Tools
- 
+
 # Design Tools
 brew cask install sketch
 
