@@ -12,6 +12,8 @@ brew install graphviz
 brew install figlet
 brew install wget
 brew install jq
+brew install rbenv
+brew install ruby-build
 
 # Remove outdated versions from the cellar
 brew cleanup
