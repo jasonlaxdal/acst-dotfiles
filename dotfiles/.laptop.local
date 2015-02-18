@@ -14,6 +14,7 @@ brew install wget
 brew install jq
 brew install rbenv
 brew install ruby-build
+brew install rbenv-gemset
 
 # Remove outdated versions from the cellar
 brew cleanup
