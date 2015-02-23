@@ -12,6 +12,7 @@ alias dif="git difftool"
 alias tc-start="~/Applications/Tomcat/bin/startup.sh c"
 # alias tc-stop="ps aux | fgrep tomcat"
 alias tc-stop='ps xu | grep tomcat | grep -v grep | awk '"'"'{ print $2 }'"'"' | xargs kill -9'
+alias tests="bundle exec guard start"
 
 ################################################################################
 # The default alaiss from the dotfiles repo
