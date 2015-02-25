@@ -41,25 +41,25 @@ crontab ~/.crontab
 
 Additional Rails Stuff
 ```
-# Under Yosemite, I had to install libv8 like this:
-gem install libv8 -v '3.16.14.3' -- --with-system-v8
-# Install the right version of ruby
-rbenv install 2.0.0-p481
-# Install bundler for the correct Ruby Version
+# Install an updated version of Ruby, as specified 2.2.0 in my ~/.ruby-version file.
+rbenv install 2.2.0
+
+# Install Rails
+gem install rails
+
+# Install Bundler
 gem install bundler
+
+# Under Yosemite, I had to install libv8 like this:
+# I didn't have to do this last time...
+# gem install libv8 -v '3.16.14.3' -- --with-system-v8
+
 # Create a default postgres user
 createuser -s -r postgres
+
 # Generate & upload a public key to Heroku
 heroku keys:add
-# Add git remotes
-git remote add build git@heroku.com:hhr-build.git
-git remote add demo git@heroku.com:hhr-demo.git
-git remote add production git@heroku.com:hhr-production.git
-git remote add qa git@heroku.com:hhr-qa.git
-git remote add staging git@heroku.com:hhr-staging.git
-git remote add temp git@heroku.com:hhr-temp.git
-git remote add test git@heroku.com:hhr-test.git
-# All clear to run the setup script!
+
 ```
 
 Go get everything from the Apple App Store
