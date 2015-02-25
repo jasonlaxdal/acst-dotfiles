@@ -57,6 +57,9 @@ gem install bundler
 # Install Awesome Print
 gem install awesome_print
 
+# For Rspec printing
+gem install fuubar
+
 # For VPN Subnet routing, install the ip-up file
 
 # On Feb 24th, my last provision, I didn't have to:
