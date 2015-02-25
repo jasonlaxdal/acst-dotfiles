@@ -57,6 +57,8 @@ gem install bundler
 # Install Awesome Print
 gem install awesome_print
 
+# For VPN Subnet routing, install the ip-up file
+
 # On Feb 24th, my last provision, I didn't have to:
 # Under Yosemite, I had to install libv8 like this:
 # gem install libv8 -v '3.16.14.3' -- --with-system-v8
