@@ -31,12 +31,18 @@ brew cask install dropbox
 brew cask install vlc
 brew cask install transmit
 brew cask install flash
-# brew cask install eye-fi
+#brew cask install eye-fi
 brew cask install transmission
-# brew cask install firefox
+brew cask install firefox
 brew cask install silverlight
 brew cask install slack
 brew cask install the-unarchiver
+brew cask install skype
+brew cask install amazon-music
+brew cask install paw
+brew cask install livereload
+brew cask install microsoft-lync
+brew cask install microsoft-lync-plugin
 
 # Media Center Tools
 # brew cask install plex-media-server
@@ -47,7 +53,6 @@ brew cask install the-unarchiver
 brew cask install atom
 brew cask install github
 brew cask install kaleidoscope
-# brew cask install pgadmin3
 
 # Work Tools
 brew cask install hipchat
