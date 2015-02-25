@@ -39,7 +39,7 @@ Setup cron file
 crontab ~/.crontab
 ```
 
-Additional Rails Stuff
+Additional Setup
 ```
 # Install an updated version of Ruby, as specified 2.2.0 in my ~/.ruby-version file.
 rbenv install 2.2.0
@@ -56,9 +56,6 @@ gem install bundler
 
 # Create a default postgres user
 createuser -s -r postgres
-
-# Generate & upload a public key to Heroku
-heroku keys:add
 
 ```
 
