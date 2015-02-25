@@ -52,6 +52,7 @@ brew cask install kaleidoscope
 # Work Tools
 brew cask install hipchat
 brew cask install evernote
+brew cask install citrix-receiver
 
 # Design Tools
 brew cask install sketch
