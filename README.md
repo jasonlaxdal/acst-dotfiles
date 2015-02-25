@@ -45,6 +45,9 @@ Additional Setup (Move gems to laptop.local?)
 rbenv install 2.2.0
 rbenv install 2.0.0-p48
 
+# Update Rubygems
+gem update --system 
+
 # Install Rails
 gem install rails
 
