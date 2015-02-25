@@ -39,10 +39,11 @@ Setup cron file
 crontab ~/.crontab
 ```
 
-Additional Setup
+Additional Setup (Move gems to laptop.local?)
 ```
 # Install an updated version of Ruby, as specified 2.2.0 in my ~/.ruby-version file.
 rbenv install 2.2.0
+rbenv install 2.0.0-p48
 
 # Install Rails
 gem install rails
