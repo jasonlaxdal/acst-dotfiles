@@ -7,13 +7,13 @@
 # brew upgrade
 
 # Brewfile
-brew install mackup
-brew install graphviz
-brew install figlet
-brew install wget
-brew install jq
-brew install rbenv
-brew install ruby-build
+brew_install_or_upgrade mackup
+brew_install_or_upgrade graphviz
+brew_install_or_upgrade figlet
+brew_install_or_upgrade wget
+brew_install_or_upgrade jq
+# brew_install_or_upgrade rbenv
+# brew_install_or_upgrade ruby-build
 brew install rbenv-gemset
 
 # Remove outdated versions from the cellar
@@ -36,8 +36,6 @@ brew cask install transmission
 # brew cask install firefox
 brew cask install silverlight
 brew cask install slack
-brew cask install hipchat
-brew cask install evernote
 brew cask install the-unarchiver
 
 # Media Center Tools
@@ -49,9 +47,11 @@ brew cask install the-unarchiver
 brew cask install atom
 brew cask install github
 brew cask install kaleidoscope
-brew cask install pgadmin3
+# brew cask install pgadmin3
 
 # Work Tools
+brew cask install hipchat
+brew cask install evernote
 
 # Design Tools
 brew cask install sketch
