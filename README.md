@@ -20,12 +20,9 @@ Download this repo to your ~/Projects directory
 git clone https://github.com/srankin/dotfiles.git Projects/dotfiles
 ```
 
-Copy dotfiles to the root
-```
-cp -r ~/Projects/dotfiles/dotfiles ~
-```
+Copy dotfiles/dotfiles to user folder
 
-Update .laptop.local
+Make sure that .laptop.local us updated.
 
 Install ThoughtBot/Laptop Script
 ```
