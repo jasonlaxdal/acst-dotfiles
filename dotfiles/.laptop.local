@@ -42,7 +42,6 @@ brew cask install amazon-music
 brew cask install paw
 brew cask install livereload
 brew cask install microsoft-lync
-brew cask install microsoft-lync-plugin
 
 # Media Center Tools
 # brew cask install plex-media-server
