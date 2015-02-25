@@ -54,12 +54,14 @@ gem install rails
 # Install Bundler
 gem install bundler
 
-# Under Yosemite, I had to install libv8 like this:
-# I didn't have to do this last time...
-# gem install libv8 -v '3.16.14.3' -- --with-system-v8
+# Install Awesome Print
+gem install awesome_print
 
+# On Feb 24th, my last provision, I didn't have to:
+# Under Yosemite, I had to install libv8 like this:
+# gem install libv8 -v '3.16.14.3' -- --with-system-v8
 # Create a default postgres user
-createuser -s -r postgres
+# createuser -s -r postgres
 
 ```
 
