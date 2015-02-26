@@ -45,6 +45,9 @@ Additional Setup (Move gems to laptop.local?)
 rbenv install 2.2.0
 rbenv install 2.0.0-p48
 
+# Automate rbenv rehash
+git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+
 # Update Rubygems
 gem update --system 
 
