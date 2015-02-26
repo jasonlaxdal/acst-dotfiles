@@ -1,0 +1,5 @@
+#!/bin/sh
+# Place at /etc/ppp/ip-up
+# Change permission:
+# chmod 0755 /etc/ppp/ip-up
+/sbin/route add 10.0.0.0/8 $5
