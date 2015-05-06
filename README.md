@@ -43,7 +43,7 @@ Additional Setup (Move gems to laptop.local?)
 ```
 # Install an updated version of Ruby, as specified 2.2.0 in my ~/.ruby-version file.
 rbenv install 2.2.0
-rbenv install 2.0.0-p48
+rbenv install 2.0.0-p481
 
 # Automate rbenv rehash
 git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
