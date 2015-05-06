@@ -39,6 +39,13 @@ Setup cron file
 crontab ~/.crontab
 ```
 
+Login To Dropbox
+
+Sync with Mackup
+```
+mackup restore
+```
+
 Additional Setup (Move gems to laptop.local?)
 ```
 # Install an updated version of Ruby, as specified 2.2.0 in my ~/.ruby-version file.
@@ -64,16 +71,12 @@ gem install bundler
 Go get everything from the Apple App Store
 
 Run ./.osx to tweak OSX
+
 ```
 Projects/dotfiles/.osx
 ```
 
 Login To Dropbox & Google Drive
-
-Sync with Mackup
-```
-mackup restore
-```
 
 Finally, install software
 - Adobe CS6
