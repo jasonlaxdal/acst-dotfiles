@@ -18,8 +18,8 @@ brew_install_or_upgrade rbenv-gemset
 brew cleanup
 
 # Tap the cask...
-brew tap caskroom/cask
-brew install brew-cask
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade brew-cask
 
 # Apps
 brew cask install 1password
