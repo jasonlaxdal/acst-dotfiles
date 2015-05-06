@@ -18,39 +18,39 @@ brew_install_or_upgrade rbenv-gemset
 brew cleanup
 
 # Tap the cask...
-brew tap caskroom/cask
-brew install brew-cask
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
 
 # Apps
-brew cask install 1password
-brew cask install amazon-music
-brew cask install atom
-brew cask install citrix-receiver
-brew cask install dropbox
-brew cask install evernote
-brew cask install flash
-brew cask install firefox
-brew cask install github
-brew cask install google-chrome
-brew cask install google-drive
-brew cask install google-hangouts
-brew cask install hipchat
-# brew cask install identify
-brew cask install kaleidoscope
-brew cask install livereload
-brew cask install microsoft-lync
-brew cask install paw
-# brew cask install plex-media-server
-brew cask install sequel-pro
-brew cask install silverlight
-brew cask install sketch
-brew cask install skype
-brew cask install slack
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install transmit
-# brew cask install tvshows
-brew cask install vlc
+brew_install_or_upgrade 1password
+brew_install_or_upgrade amazon-music
+brew_install_or_upgrade atom
+brew_install_or_upgrade citrix-receiver
+brew_install_or_upgrade dropbox
+brew_install_or_upgrade evernote
+brew_install_or_upgrade flash
+brew_install_or_upgrade firefox
+brew_install_or_upgrade github
+brew_install_or_upgrade google-chrome
+brew_install_or_upgrade google-drive
+brew_install_or_upgrade google-hangouts
+brew_install_or_upgrade hipchat
+# brew_install_or_upgrade identify
+brew_install_or_upgrade kaleidoscope
+brew_install_or_upgrade livereload
+brew_install_or_upgrade microsoft-lync
+brew_install_or_upgrade paw
+# brew_install_or_upgrade plex-media-server
+brew_install_or_upgrade sequel-pro
+brew_install_or_upgrade silverlight
+brew_install_or_upgrade sketch
+brew_install_or_upgrade skype
+brew_install_or_upgrade slack
+brew_install_or_upgrade the-unarchiver
+brew_install_or_upgrade transmission
+brew_install_or_upgrade transmit
+# brew_install_or_upgrade tvshows
+brew_install_or_upgrade vlc
 
 # Cleanup
 brew cask cleanup
