@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+# Global gem file
+
+# Install Rails
+gem "rails"
+
+# Install Awesome Print
+gem "awesome_print"
+
+# For Rspec printing
+gem "fuubar"

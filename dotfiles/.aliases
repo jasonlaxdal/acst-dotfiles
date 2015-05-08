@@ -13,6 +13,9 @@ alias tc-start="~/Applications/Tomcat/bin/startup.sh c"
 # alias tc-stop="ps aux | fgrep tomcat"
 alias tc-stop='ps xu | grep tomcat | grep -v grep | awk '"'"'{ print $2 }'"'"' | xargs kill -9'
 alias tests="bundle exec guard start"
+alias hosts="nano /private/etc/hosts"
+alias msql-start="sudo /usr/local/mysql/support-files/mysql.server start"
+alias msql-stop="sudo /usr/local/mysql/support-files/mysql.server stop"
 
 ################################################################################
 # The default alaiss from the dotfiles repo
