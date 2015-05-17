@@ -59,7 +59,7 @@ rbenv rehash
 git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
 
 # Update Rubygems
-gem update --system 
+gem update --system
 
 # Install Rails
 gem install rails
@@ -77,6 +77,11 @@ Run ./.osx to tweak OSX
 
 ```
 Projects/dotfiles/.osx
+```
+
+```
+# Install Atom packages
+apm stars --install
 ```
 
 Login To Dropbox & Google Drive
