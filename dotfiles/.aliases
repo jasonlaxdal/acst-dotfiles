@@ -16,6 +16,7 @@ alias tests="bundle exec guard start"
 alias hosts="nano /private/etc/hosts"
 alias msql-start="sudo /usr/local/mysql/support-files/mysql.server start"
 alias msql-stop="sudo /usr/local/mysql/support-files/mysql.server stop"
+alias wp="webpack -d --display-reasons --display-chunks --progress --colors --watch"
 
 ################################################################################
 # The default alaiss from the dotfiles repo
