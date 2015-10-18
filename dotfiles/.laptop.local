@@ -36,12 +36,9 @@ brew cask install google-drive
 brew cask install google-hangouts
 brew cask install heroku-toolbelt
 brew cask install hipchat
-# brew cask install identify
 brew cask install kaleidoscope
 brew cask install livereload
-brew cask install microsoft-lync
 brew cask install microsoft-lync-plugin
-# brew cask install plex-media-server
 brew cask install sequel-pro
 brew cask install silverlight
 brew cask install sketch
@@ -50,8 +47,13 @@ brew cask install slack
 brew cask install the-unarchiver
 brew cask install transmission
 brew cask install transmit
-# brew cask install tvshows
 brew cask install vlc
+##########################
+# brew cask install sonarr
+# brew cask install plex-media-server
+# brew cask install identify
+
+
 
 # Cleanup
 brew cask cleanup
