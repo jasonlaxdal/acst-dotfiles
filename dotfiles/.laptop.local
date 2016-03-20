@@ -26,22 +26,27 @@ brew cask install 1password
 brew cask install amazon-music
 brew cask install atom
 brew cask install citrix-receiver
+brew cask install dockertoolbox
 brew cask install dropbox
 brew cask install evernote
-brew cask install flash
 brew cask install firefox
-brew cask install github
+brew cask install flash
+brew cask install github-desktop
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install google-hangouts
 brew cask install handbrakebatch
 brew cask install heroku-toolbelt
 brew cask install hipchat
+brew cask install hosts
+brew cask install identify
 brew cask install kaleidoscope
 brew cask install livereload
 brew cask install macid
+brew cask install microsoft-lync
 brew cask install microsoft-lync-plugin
 brew cask install nike-plus-connect
+brew cask install omnigraffle
 brew cask install sequel-pro
 brew cask install silverlight
 brew cask install sketch
@@ -50,6 +55,7 @@ brew cask install slack
 brew cask install the-unarchiver
 brew cask install transmission
 brew cask install transmit
+brew cask install virtualbox
 brew cask install vlc
 ##########################
 # brew cask install sonarr
