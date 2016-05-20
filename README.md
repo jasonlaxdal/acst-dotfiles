@@ -1,6 +1,6 @@
-# Sean's Dotfiles
+# Jason's ACST Dotfiles (forked from Sean)
 
-This repo contains all the scripts to provision a shiny new Mac.
+This repo contains all the scripts to provision a silver matte new Mac.
 
 #### Installation
 
@@ -17,10 +17,15 @@ xcode-select --install
 Download this repo to your ~/Projects directory
 
 ```
-git clone https://github.com/srankin/dotfiles.git Projects/dotfiles
+git clone https://github.com/jasonlaxdal/acst-dotfiles.git src/acst-dotfiles
 ```
 
 Copy dotfiles/dotfiles to user folder
+
+```
+cd ~/src/acst-dotfiles
+cp .* ~/
+```
 
 Make sure that .laptop.local us updated.
 
@@ -29,22 +34,6 @@ Install ThoughtBot/Laptop Script
 bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac) 2>&1 | tee ~/laptop.log
 ```
 
-Then, switch bash back to the default bash for good
-```
-chsh -s /bin/bash
-```
-
-Setup cron file
-```
-crontab ~/.crontab
-```
-
-Login To Dropbox
-
-Sync with Mackup
-```
-mackup restore
-```
 
 Additional Setup (Move gems to laptop.local?)
 ```
