@@ -7,11 +7,6 @@
 # brew upgrade
 
 # Brewfile
-brew_install_or_upgrade mackup
-brew_install_or_upgrade graphviz
-brew_install_or_upgrade figlet
-brew_install_or_upgrade wget
-brew_install_or_upgrade jq
 brew_install_or_upgrade rbenv-gemset
 
 # Remove outdated versions from the cellar
@@ -22,46 +17,31 @@ brew_tap 'caskroom/cask'
 brew_install_or_upgrade brew-cask
 
 # Apps
-brew cask install 1password
-brew cask install amazon-music
 brew cask install atom
-brew cask install citrix-receiver
-brew cask install dockertoolbox
+brew cask install charles
 brew cask install dropbox
 brew cask install evernote
-brew cask install firefox
 brew cask install flash
 brew cask install github-desktop
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install google-hangouts
-brew cask install handbrakebatch
 brew cask install heroku-toolbelt
 brew cask install hipchat
 brew cask install hosts
-brew cask install identify
-brew cask install kaleidoscope
-brew cask install livereload
-brew cask install macid
 brew cask install microsoft-lync
 brew cask install microsoft-lync-plugin
-brew cask install nike-plus-connect
-brew cask install omnigraffle
+brew cask install psequel
+brew cask install postgres
+brew cask install propresenter
+brew cask install rubymine
 brew cask install sequel-pro
 brew cask install silverlight
 brew cask install sketch
-brew cask install skype
 brew cask install slack
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install transmit
-brew cask install virtualbox
-brew cask install vlc
-##########################
-# brew cask install sonarr
-# brew cask install plex-media-server
-# brew cask install identify
-
+brew cask install spotify
+brew cask install textmate
+brew cask install ynab
 
 
 # Cleanup
