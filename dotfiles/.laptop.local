@@ -17,14 +17,14 @@ brew update
 brew upgrade
 
 # Brewfile
-brew_install_or_upgrade rbenv-gemset
+brew install rbenv-gemset
 
 # Remove outdated versions from the cellar
 brew cleanup
 
 # Tap the cask...
 brew_tap 'caskroom/cask'
-brew_install_or_upgrade brew-cask
+brew install brew-cask
 
 # Apps
 brew cask install atom
