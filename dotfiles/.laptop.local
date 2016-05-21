@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#Hide non-running apps on the dock.
+defaults write com.apple.dock static-only -bool TRUE
+killall Dock
+
 # Make sure we’re using the latest Homebrew
 # brew update
 
