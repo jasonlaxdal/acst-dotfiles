@@ -24,7 +24,7 @@ Copy dotfiles/dotfiles to user folder
 
 ```
 cd ~/src/acst-dotfiles
-cp .* ~/
+cp -r ./dotfiles/ ~/
 ```
 
 Make sure that .laptop.local us updated.
