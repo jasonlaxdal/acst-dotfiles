@@ -27,16 +27,15 @@ brew_tap 'caskroom/cask'
 brew install brew-cask
 
 # Apps
+# Don't install web browsers if you're using 1Password from the App Store 
 brew cask install atom
 brew cask install charles
 brew cask install dropbox
 brew cask install evernote
 brew cask install flash
 brew cask install github-desktop
-brew cask install google-chrome
 brew cask install google-drive
 brew cask install google-hangouts
-brew cask install heroku-toolbelt
 brew cask install hipchat
 brew cask install hosts
 brew cask install microsoft-lync
