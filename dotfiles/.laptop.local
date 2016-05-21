@@ -1,14 +1,20 @@
 #!/bin/sh
 
-#Hide non-running apps on the dock.
+# Hide non-running apps on the dock.
 defaults write com.apple.dock static-only -bool TRUE
 killall Dock
 
+# Add ThoughBot/dotfiles
+git clone git://github.com/thoughtbot/dotfiles.git
+brew tap thoughtbot/formulae
+brew install rcm
+env RCRC=$HOME/dotfiles/rcrc rcup
+
 # Make sure we’re using the latest Homebrew
-# brew update
+brew update
 
 # Upgrade any already-installed formulae
-# brew upgrade
+brew upgrade
 
 # Brewfile
 brew_install_or_upgrade rbenv-gemset
