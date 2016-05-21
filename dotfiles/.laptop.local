@@ -50,3 +50,12 @@ brew cask install ynab
 
 # Cleanup
 brew cask cleanup
+
+# Update Rubygems
+gem update --system
+
+# Install Rails
+gem install rails
+
+# Install Bundler
+gem install bundler
