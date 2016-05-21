@@ -34,6 +34,13 @@ Install ThoughtBot/Laptop Script
 bash <(curl -s https://raw.githubusercontent.com/thoughtbot/laptop/master/mac) 2>&1 | tee ~/laptop.log
 ```
 
+Install ThoughtBot/dotfiles
+```
+git clone git://github.com/thoughtbot/dotfiles.git
+brew tap thoughtbot/formulae
+brew install rcm
+env RCRC=$HOME/dotfiles/rcrc rcup
+```
 
 Additional Setup (Move gems to laptop.local?)
 
