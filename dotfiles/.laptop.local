@@ -4,6 +4,9 @@
 defaults write com.apple.dock static-only -bool TRUE
 killall Dock
 
+# Turn on the 'locate' index.
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
 # Add ThoughBot/dotfiles
 # git clone git://github.com/thoughtbot/dotfiles.git
 brew tap thoughtbot/formulae
