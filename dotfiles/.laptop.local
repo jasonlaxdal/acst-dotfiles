@@ -70,3 +70,6 @@ gem install rails
 
 # Install Bundler
 gem install bundler
+
+# Install RBenv Ruby Build Plugin
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
