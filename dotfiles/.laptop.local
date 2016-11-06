@@ -76,3 +76,6 @@ gem install bundler
 
 # Install RBenv Ruby Build Plugin
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+# Install Oh My Zsh!
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
